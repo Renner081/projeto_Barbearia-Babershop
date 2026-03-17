@@ -1,0 +1,50 @@
+body {
+ background-color: #f5e7da;
+ margin: 0%;
+
+}
+
+
+header{
+ background-color: white;
+ padding: 15px 30px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.Logo{
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+margin-left: 50px;
+
+}
+
+.Login{
+ color: black;
+ font-family: "Noto Sans", sans-serif;
+ font-weight: 800;
+margin-top:  14px;
+margin-right: 45px;
+text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+ font-size: 20px;
+}
+nav a{
+ margin-top: 15px;
+ margin-left: 5px;
+ margin-bottom: 10px;
+ text-decoration: none;
+ color: black;
+font-family: Arial, Helvetica, sans-serif;
+ padding-bottom: 5px;
+}
+
+
+/*Se Quiser mudar o estilo da fonte pode!
+Tamanho incorreto? pode alterar*/
