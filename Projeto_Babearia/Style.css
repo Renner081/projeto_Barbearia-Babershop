@@ -51,6 +51,9 @@ nav a{
 font-family: "Montserrat";
  padding-bottom: 5px;
 }
+/*Se Quiser mudar o estilo da fonte pode!
+Tamanho incorreto? pode alterar*/
+
 nav a:hover{
  border-bottom: 2px solid black;
 }
@@ -58,7 +61,7 @@ nav a:hover{
 .container{
     width: 80%;
     max-width: 400px;
-    margin: 0 auto; /* centraliza */
+    margin: 0 auto; 
     padding: 100px;
     background-color: rgb(181, 179, 179);
     border-radius: 10px;
@@ -72,12 +75,12 @@ nav a:hover{
 .container2 {
     width: 80%;
     max-width: 400px;
-    margin: 0 auto; /* centraliza */
+    margin: 0 auto; 
     padding: 100px;
     background-color: rgb(181, 179, 179);
     border-radius: 10px;
     position : relative;
-    top:250px;
+    top:400px;
     left: 400px;
     font-family: "Montserrat";
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -89,7 +92,28 @@ body {
     margin: 0;
     padding: 0;
 }
+.Container3{
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto; /* centraliza */
+    padding: 100px;
+    background-color: rgb(181, 179, 179);
+    border-radius: 10px;
+    position : relative;
+    top:20px;
+    right: 400px;
+    font-family: "Montserrat";
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
 
-
-/*Se Quiser mudar o estilo da fonte pode!
-Tamanho incorreto? pode alterar*/
+.container4 {
+    width: 80%;
+    max-width: 400px; 
+    padding: 100px;
+    background-color: rgb(181, 179, 179);
+    border-radius: 10px;
+    position : relative;
+    top:-700px;
+    left: 700px;
+}
+/*Add modelo base para os elementos de agendamento e containers dessa pagina, ou podemos mudar essa parte do agendamento para outra pagina, clicando no agendamento que tem na nvbar!!*/
