@@ -68,8 +68,10 @@ header {
   text-decoration: none;
   cursor: pointer;
 
+
   border-bottom: 3px solid transparent; /* espaço reservado */
   transition: border-bottom 0.3s ease;
+
 }
 
 .Login:hover {
@@ -103,10 +105,12 @@ nav a {
   padding-bottom: 5px;
   font-weight:500;
   border-bottom: 3px solid transparent;
-  transition: border-bottom 0.3s ease;
+  transition: border-bottom 0.3s ease, border-bottom 0.3s ease;/* espaço reservado para a linha */
+  display: inline-block;/* necessário para o efeito de linha funcionar corretamente */
 }
 
 nav a:hover {
+  transform: translateY(-3px); /*Efeito de elevação*/
   border-bottom: 4px solid black;
   font-weight:700;
 }
