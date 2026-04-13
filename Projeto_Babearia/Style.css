@@ -39,17 +39,20 @@ header {
 
 /* LOGO */
 .Logo {
+  display: flex;
+  align-items: center;
   color: black;
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 30px;
-  margin-left: 50px;
+  margin-left: 5px;
+
 }
 
 .Logo img {
   width: 47px;
   height: 47px;
-  margin-right: 35px;
+  margin-right: 5px;
 }
 
 /* LOGIN */
