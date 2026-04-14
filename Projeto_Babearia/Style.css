@@ -60,32 +60,41 @@ header {
   display: flex;
   align-items: center;
   gap: 18px;
-  color: black;
   font-family: "Montserrat";
   font-weight: 800;
   margin-top: 14px;
   margin-right: 45px;
+}
+
+.Login_text {
   text-decoration: none;
-  cursor: pointer;
-
-
-  border-bottom: 3px solid transparent; /* espaço reservado */
-  transition: border-bottom 0.3s ease;
-
+  color: black;
+  display: inline-block;
+  transition: transform 0.25s ease;
+  padding-bottom: 2px;
+  border-bottom: 3px solid transparent;
 }
 
-.Login:hover {
-  border-bottom: 4px solid black; /* linha mais grossa */
-}
-
-.Login:active {
-  transform: scale(0.95);
+.Login_text:hover {
+  transform: translateY(-4px);
+  border-bottom: 3px solid black;
 }
 
 .icon_LG img {
   width: 30px;
   height: 30px;
-  object-fit: contain;
+}
+
+.icon_LG {
+  transition: transform 0.25s ease;
+}
+
+.icon_LG:hover {
+  transform: translateY(-4px);
+}
+
+.Login a:active {
+  transform: scale(0.95);
 }
 
 /* NAV */
@@ -105,7 +114,7 @@ nav a {
   padding-bottom: 5px;
   font-weight:500;
   border-bottom: 3px solid transparent;
-  transition: border-bottom 0.3s ease, border-bottom 0.3s ease;/* espaço reservado para a linha */
+  transition: transform 0.25s ease;
   display: inline-block;/* necessário para o efeito de linha funcionar corretamente */
 }
 
