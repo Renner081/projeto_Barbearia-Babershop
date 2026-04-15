@@ -112,16 +112,18 @@ nav a {
   color: black;
   font-family: "Montserrat";
   padding-bottom: 5px;
-  font-weight:500;
+  font-weight: 500;
   border-bottom: 3px solid transparent;
   transition: transform 0.25s ease;
-  display: inline-block;/* necessário para o efeito de linha funcionar corretamente */
+  display: inline-block;
+  /* necessário para o efeito de linha funcionar corretamente */
 }
 
 nav a:hover {
-  transform: translateY(-3px); /*Efeito de elevação*/
+  transform: translateY(-3px);
+  /*Efeito de elevação*/
   border-bottom: 4px solid black;
-  font-weight:700;
+  font-weight: 700;
 }
 
 nav a:active {
@@ -160,7 +162,7 @@ nav a:active {
 .lado-esquerdo p {
   font-size: 18px;
   color: #000000;
-    font-weight: 600;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -188,7 +190,7 @@ nav a:active {
   opacity: 0;
   transform: scale(0.98);
 
-  transition: 
+  transition:
     opacity 0.6s ease,
     transform 0.6s ease;
 }
@@ -220,7 +222,7 @@ nav a:active {
 
   opacity: 0;
 
-  transition: 
+  transition:
     opacity 0.4s ease,
     transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     background 0.3s ease;
@@ -266,7 +268,7 @@ nav a:active {
   border-radius: 50%;
   cursor: pointer;
 
-  transition: 
+  transition:
     transform 0.2s ease,
     background 0.3s ease;
 }
@@ -296,10 +298,10 @@ h1 {
   font-size: 18px;
   border-radius: 8px;
   cursor: pointer;
-  width: fit-content; 
+  width: fit-content;
   margin: 0;
 
-  transition: 
+  transition:
     transform 0.2s ease,
     background-color 0.3s ease,
     box-shadow 0.3s ease;
@@ -308,7 +310,7 @@ h1 {
 .butão_agdt:hover {
   background-color: #5A3A2E;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .butão_agdt:active {
