@@ -131,21 +131,59 @@ nav a:active {
 }
 
 .Agend_container {
-  display: flex;
-  max-width: 1200px;
-    margin: 40px auto;
-    gap: 40px;
-    background-color: rgb(15, 0, 74);
-    height: 600px;
-    width: 600px;
-    border-radius: 10px;
-    padding: 50px;
-
+  max-width: 380px; 
+  width: 100%;
+  margin: 50px auto;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 22px; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 
-h1 {
-  text-align: center;
-  margin-top: 50px;
-  margin-left: 175px;
-  color: #ffffff;
+/* título */
+.Agend_container h1 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* form */
+.Agend_form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* labels */
+.Agend_form label {
+  color: #aaa;
+  font-size: 12px;
+  margin: 10px 0 5px;
+  text-transform: uppercase;
+}
+
+/* inputs */
+.Agend_form input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #2a2a2a;
+  color: #fff;
+  outline: none;
+  transition: 0.3s;
+}
+
+.Agend_form input:focus {
+  border: 1px solid #5A3A2E;
+  background: #333;
+}
+
+/* botão ocupa toda largura */
+.Agend_form button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #5A3A2E;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 9px;
 }
