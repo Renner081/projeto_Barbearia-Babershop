@@ -1,0 +1,27 @@
+/* Fonte */
+@font-face {
+  font-family: 'Montserrat';
+  src: url(Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(Montserrat-Medium.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(Montserrat-Medium.ttf);
+  font-weight: 500;
+}
+
+/* Reset básico */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #F9F4F4;
+  margin: 0;
+  padding: 0;
+}
+
