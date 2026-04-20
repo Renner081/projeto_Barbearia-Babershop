@@ -30,8 +30,6 @@ Facilitar o dia a dia de uma barbearia, reduzindo processos manuais e melhorando
 
 - CSS
 
-- PHP
-
 - MYSQL
 
 - JavaScript
