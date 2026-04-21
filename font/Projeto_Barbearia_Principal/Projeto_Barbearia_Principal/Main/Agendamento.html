@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scripts/Style_Agendamento.css">
+    <title>interface da Barbearia</title>
+</head>
+
+<body>
+    <header>
+        <!--Topo do Site-->
+        <div class="Logo"><img src="img/3m-barber-logo.png" alt="3M Barber"> 3M BARBER </div>
+        <!--Partes em # adiciona Link para outra página do Site-->
+        <nav>
+            <a href="inicio.html">Início</a>
+            <a href="Agendamento.html">Agendamentos</a>
+            <a href="Cortes.html">Cortes</a>
+
+        </nav>
+        <!-- Login/cadastro-->
+        <div class="Login">
+            <a href="Login_Registro.html" class="Login_text">Login/Cadastro</a>
+
+            <a href="#" class="icon_LG">
+                <img src="icons/user.png" alt="User_icon">
+            </a>
+        </div>
+    </header>
+
+    <div class="Agend_container">
+        <h1>Agendar Horário</h1>
+        <form action="#" method="post" class="Agend_form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Data do Agendamento:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Hora do Agendamento:</label>
+            <input type="time" id="time" name="time" required>
+
+            <a href="Agendamento.html"><button type="submit">CONFIRMAR AGENDAMENTO</button></a>
+            
+        </form>
+    </div>
+
+</body font-family="Montserrat">
+
+</html>
