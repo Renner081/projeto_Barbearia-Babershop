@@ -30,6 +30,8 @@ Facilitar o dia a dia de uma barbearia, reduzindo processos manuais e melhorando
 
 - CSS
 
+- JAVASCRIPT
+
 - MYSQL
 
 ## Status do projeto
