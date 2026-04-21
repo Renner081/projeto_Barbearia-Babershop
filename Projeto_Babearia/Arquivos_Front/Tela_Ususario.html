@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bem Vindo</title>
+</head>
+
+<script src="Script.js" defer></script>
+<body>
+    
+    <header>
+        <!--Topo do Site-->
+<div class="Logo">
+    <img src="icons/3m-barber-logo.png" alt="logo" class="img-logo"> 3M BARBER
+</div>
+
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Agendamentos</a>
+            <a href="#">Cortes</a>
+            
+        </nav>
+        
+        <div class="usuario">
+  <a href="" class="Login">Login/Cadastro</a>
+  <img src="icons/user.png" class="Boneco">
+</div>
+
+ </header>
+
+ <!---Aqui começa a sidebar, atenção total. main vai mexer em tudo então cuidado no CSS!-->
+
+ <main class="Dashboard-container">
+
+    <aside class="sidebar">
+        <div class="user-info">
+            <img src="icons/do-utilizador.png" alt="avatar" class="avatar-principal">
+            <h3>USUARIO</h3>
+            <P>CLIENTE</P>
+        </div>
+
+       <nav class="menu-lateral">
+    <button class="menu-item active" data-target="Perfil">
+        <img src="icons/user.png" alt=""> Perfil
+    </button>
+    <button class="menu-item" data-target="Gerenciamento">
+        <img src="icons/painel-de-controle.png" alt=""> Gerenciamento
+    </button>
+    <button class="menu-item" data-target="Notificacoes">
+        <img src="icons/notifications.png" alt=""> Notificações
+    </button>
+    <button class="menu-item" data-target="Personalizacao">
+        <img src="icons/caneta.png" alt=""> Personalização
+    </button>
+     </nav>
+    </aside>
+
+    <!-- aqui é a sessão onde vocês irão mexer, tudo que vão colocar coloquem dentro das divs, removam o paragrafo, é um exemplo.-->
+
+    <section class="Content-Area"> <!--essa é a classe pai, ela vai guardar todas as divs e alterar todas. Cuidado ao mexer com ela.-->
+        <div id="Perfil" class="content-section active">
+            <p>apague e altere</p>
+        </div>
+
+        <div id="Gerenciamento" class="content-section">
+            <p>alterar aqui</p>
+        </div>
+
+        <div id="Notificacoes" class="content-section">
+            <p>aqui</p>
+        </div>
+
+        <div id="Personalizacao" class="content-section">
+            <p>aqui também</p>
+        </div>
+    </section>
+ </main>
+
+</body>
+</html>
