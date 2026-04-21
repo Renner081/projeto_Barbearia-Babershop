@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -26,9 +26,12 @@
             <a href="Cortes.html">Cortes</a>
         </nav>
 
-        <div class="usuario">
-            <a href="Login_Registro.html" class="Login">Login/Cadastro</a>
-            <img src="icons/user.png" class="Boneco">
+          <div class="Login">
+            <a href="Login_Registro.html" class="Login_text">Login/Cadastro</a>
+
+            <a href="#" class="icon_LG">
+                <img src="icons/user.png" alt="User_icon">
+            </a>
         </div>
 
     </header>
@@ -42,13 +45,11 @@
             <!-- Tabs -->
             <div class="tabs">
 
-                <button class="tab-btn active" id="tabEntrar"
-                    onclick="switchTab('login')">
+                <button class="tab-btn active" id="tabEntrar" onclick="switchTab('login')">
                     Entrar
                 </button>
 
-                <button class="tab-btn" id="tabCadastro"
-                    onclick="switchTab('cadastro')">
+                <button class="tab-btn" id="tabCadastro" onclick="switchTab('cadastro')">
                     Cadastrar-se
                 </button>
 
@@ -79,12 +80,9 @@
                         <div class="input-wrapper">
                             <img src="icons/lock.png" class="icon">
 
-                            <input type="password" id="pass-login"
-                                placeholder="Insira sua senha">
+                            <input type="password" id="pass-login" placeholder="Insira sua senha">
 
-                            <button class="eye-btn"
-                                onclick="toggleOlho('pass-login','eye-open')"
-                                type="button"
+                            <button class="eye-btn" onclick="toggleOlho('pass-login','eye-open')" type="button"
                                 aria-label="Mostrar senha">
 
                                 <img id="eye-open" src="icons/visible.png">
@@ -131,12 +129,9 @@
                         <div class="input-wrapper">
                             <img src="icons/lock.png" class="icon">
 
-                            <input type="password" id="pass-register"
-                                placeholder="Crie uma senha">
+                            <input type="password" id="pass-register" placeholder="Crie uma senha">
 
-                            <button class="eye-btn"
-                                onclick="toggleOlho('pass-register','eye-open2')"
-                                type="button"
+                            <button class="eye-btn" onclick="toggleOlho('pass-register','eye-open2')" type="button"
                                 aria-label="Mostrar senha">
 
                                 <img id="eye-open2" src="icons/visible.png">
