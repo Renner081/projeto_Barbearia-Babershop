@@ -168,8 +168,8 @@ nav a:active {
   width: 90%;
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #E3DFDF;
-  background: #F9F4F4;
+  border: 1.5px solid  #d8cfc6;
+  background: #faf8f6;
   color: #020202;
   outline: none;
   transition: 0.3s;
@@ -180,8 +180,7 @@ nav a:active {
 
 .Agend_form input:focus {
   border: 1px solid #5A3A2E;
-  background: #64453A;
-  color: #ffffff;
+  color: #000000;
 }
 
 /* botão ocupa toda largura */

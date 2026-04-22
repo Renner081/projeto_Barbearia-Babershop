@@ -274,7 +274,6 @@ main {
  
 .input-wrapper input:focus {
   border-color: #5A3A2E;
-  background : #644530;
 }
  
 .input-wrapper input::placeholder {

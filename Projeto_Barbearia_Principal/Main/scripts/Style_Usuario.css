@@ -1,42 +1,47 @@
 @font-face {
-  font-family: 'Montserrat-Bold';
-  src: url(font/Montserrat-Bold);
-  font-weight: 700;
+  font-family: "Montserrat";
+  src: url("font/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Montserrat-Medium';
-  src: url(font/Montserrat-Medium);
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Montserrat-Regular';
-  src: url(font/Montserrat-Regular);
+  font-family: "Montserrat";
+  src: url("font/Montserrat-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 
-/* BODY */
+@font-face {
+  font-family: "Montserrat";
+  src: url("font/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
 
-body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #F9F4F4;
+/* RESET GERAL */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* BODY */
+body {
+  background-color: #F9F4F4;
 }
 
 /* HEADER */
-
-header{
- background-color: white;
- padding: 15px 30px;
- display: flex;
- justify-content: space-between;
+header {
+  background-color: white;
   align-items: center;
+  height: 70px;
+  padding: 0 20px;
+  gap: 18px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* LOGO */
-
 .Logo {
   display: flex;
   align-items: center;
@@ -44,131 +49,480 @@ header{
   font-weight: 700;
   font-size: 30px;
   margin-left: 5px;
-
 }
 
-.img-logo{
-    height: 50px;
-    width: auto;
+.img-logo {
+  width: 47px;
+  height: 47px;
+  margin-right: 5px;
 }
 
-.usuario {
-   display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-
-
-.Login{
- color: black;
- font-family: "Montserrat", sans-serif;
- font-weight: 800;
-text-decoration: none;
-
-}
-
-header nav{
-    display: flex;
-    gap: 30px;
- font-size: 20px;
-}
-
-header nav a{
- margin-top: 15px;
- margin-left: 5px;
- margin-bottom: 10px;
- text-decoration: none;
- color: black;
-font-family:"Montserrat", sans-serif;
- padding-bottom: 5px;
-}
-header nav a:hover{
- border-bottom: 2px solid black;
-}
-
-.Boneco {
-  width: 30px;
-  height: 30px;
-  object-fit: cover;
+/* LOGIN */
+.Login {
   display: flex;
   align-items: center;
+  gap: 18px;
+  font-weight: 700;
+  margin-top: 14px;
+  margin-right: 45px;
 }
-/*Dashboard-container vai mexer em tudo. */
 
-.Dashboard-container{ 
-    display: flex;
+.Login_text {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  transition: transform 0.25s ease;
+  padding-bottom: 2px;
+  border-bottom: 3px solid transparent;
+}
+
+.Login_text:hover {
+  transform: translateY(-4px);
+  border-bottom: 3px solid black;
+}
+
+.icon_LG img {
+  width: 30px;
+  height: 30px;
+}
+
+.icon_LG:hover {
+  transform: translateY(-4px);
+}
+
+.Login a:active {
+  transform: scale(0.95);
+}
+
+/* NAV */
+nav a {
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+  transition: transform 0.25s ease;
+  display: inline-block;
+}
+
+nav a:hover {
+  transform: translateY(-3px);
+  border-bottom: 4px solid black;
+  font-weight: 700;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+
+/* DASHBOARD */
+.Dashboard-container {
+  display: flex;
   margin-left: 50px;
   margin-top: 25px;
 }
 
-.sidebar{
+.sidebar {
   width: 266px;
   background: white;
   border: 1px solid #ddd;
-  font-family: "Montserrat", sans-serif;
   border-radius: 10px;
 }
 
-.menu-lateral{
-    flex-direction: column;
-    border-radius: 10px;
-    font-family: "Montserrat", sans-serif;
-    display: flex;
-    width: 100%;
+.menu-lateral {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-.user-info{
-    text-align: center;
+.user-info {
+  text-align: center;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
-  font-family:  "Montserrat", sans-serif;
 }
 
-.avatar-principal{
-    width: 150px; 
-    margin-top: 20px;
-
+.user-info h3 {
+  font-weight: 700;
 }
 
-.menu-item{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 8px 20px;
-    border: none;
-    border-bottom: 1px solid #eee;
-    background: none;
-    cursor: pointer;
-    font-size: 20px;
-    text-align: left;
-    height: 60px; 
-    box-sizing: border-box;
+.user-info p {
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 5px;   /* sobe ou desce */
+  margin-left: 0px;   /* direita ou esquerda */
 }
 
-.menu-item img{
-    width: 24px; 
-    margin-right: 15px;
-    height: 24px;
-    object-fit: contain;
-    flex-shrink: 0;
+.avatar-principal {
+  width: 150px;
+  margin-top: 20px;
 }
 
-.menu-item:hover, .menu-item.active{
- background-color: #5A3A2E;
+.menu-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 8px 20px;
+  border: none;
+  border-bottom: 1px solid #eee;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: left;
+  height: 60px;
+  transition: 0.25s ease;
+}
+
+.menu-item img {
+  width: 24px;
+  margin-right: 15px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+  transition: 0.25s ease;
+}
+
+.menu-item:hover,
+.menu-item.active {
+  background-color: #5A3A2E;
+  color: white;
+}
+
+/* ÍCONE FICA BRANCO */
+.menu-item:hover img,
+.menu-item.active img {
+  filter: brightness(0) invert(1);
 }
 
 .Content-Area {
-    flex: 1;
-    padding: 40px;
+  flex: 1;
+  padding: 40px;
 }
 
-.content-section{
-/*ao usar display: none; vai esconder tudo que vocês fizeram dentro das divs para o java script fazer cada um aparecer de acordo com o botão clicado, então se não estiver aparecendo sua alteração, lembre-se disso!*/
-display: none;
+.content-section {
+  display: none !important;
 }
 
 .content-section.active {
-  display: block;
+  display: block !important;
 }
-/* o comando acima ela mostra a sessão que está ativa*/
+
+/* AREA PERFIL */
+.perfil-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  width: 100%;
+}
+
+/* CARD */
+.card-perfil {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  overflow: hidden;
+  min-height: 120px;
+}
+
+/* TOPO CARD */
+.card-topo {
+  height: 42px;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+}
+
+.card-topo img {
+  width: 20px;
+  height: 20px;
+}
+
+.card-topo span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6B4532;
+}
+
+/* CONTEÚDO */
+.card-conteudo {
+  padding: 14px;
+}
+
+.card-conteudo p {
+  font-size: 14px;
+  color: #b1b1b1;
+  margin-bottom: 10px;
+}
+
+.card-conteudo strong {
+  color: #6B4532;
+  font-weight: 700;
+}
+
+/* BOTÃO */
+.btn-card {
+  width: 90px;
+  height: 28px;
+  border: none;
+  border-radius: 4px;
+  background: #6B4532;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.btn-card:hover {
+  opacity: 0.9;
+}
+
+/* GERENCIAMENTO */
+.gerenciamento-grid {
+  display: grid;
+  gap: 25px;
+  width: 420px;
+}
+
+.card-gerenciamento {
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.linha-config {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.linha-config p {
+  font-size: 14px;
+  color: #5c3a2d;
+  font-weight: 500;
+}
+
+.linha-config:last-child {
+  margin-bottom: 0;
+}
+
+/* SWITCH */
+.switch {
+  position: relative;
+  width: 32px;
+  height: 18px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  inset: 0;
+  background: #d0d0d0;
+  border-radius: 20px;
+  transition: .3s;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 2px;
+  top: 2px;
+  background: white;
+  border-radius: 50%;
+  transition: .3s;
+}
+
+.switch input:checked + .slider {
+  background: #48b757;
+}
+
+.switch input:checked + .slider::before {
+  transform: translateX(14px);
+}
+
+/* NOTIFICAÇÕES */
+.card-notificacoes {
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1100px; /* 🔥 mais próximo do Figma */
+}
+
+/* TOPO PERSONALIZADO */
+.notificacoes-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notificacoes-topo .left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.notificacoes-topo .right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notificacoes-topo .right span {
+  font-size: 14px;
+  color: #6B4532;
+  font-weight: 500;
+}
+
+/* LISTA */
+.lista-notificacoes {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ITEM */
+.item-notificacao {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.item-notificacao:hover {
+  background: #f6f6f6;
+}
+
+/* BOLINHA */
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #5A3A2E;
+  border-radius: 50%;
+}
+
+/* TEXTO */
+.item-notificacao p {
+  font-size: 14px;
+  color: #6B4532;
+  font-weight: 500;
+}
+
+.card-perfil .card-topo img,
+.card-gerenciamento .card-topo img,
+.card-notificacoes .card-topo img,
+.personalizacao-box .card.topo img,
+.notificacoes-topo img {
+  width: 20px;
+  height: 20px;
+
+  filter: brightness(0) saturate(100%) invert(23%) sepia(24%) saturate(600%) hue-rotate(340deg) brightness(95%) contrast(90%);
+}
+
+/* PERSONALIZAÇÃO */
+#Personalizacao {
+  display: block;
+  padding-top: 0px;
+}
+
+/* CARD */
+.personalizacao-box {
+  width: 420px;
+  margin: 0;
+
+  background: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* TOPO */
+#Personalizacao .card-topo {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+
+  border-bottom: 1px solid #dcdcdc;
+}
+
+#Personalizacao .card-topo img {
+  width: 20px;
+  height: 20px;
+
+  /* marrom do sistema */
+  filter: brightness(0) saturate(100%) invert(23%) sepia(24%) 
+          saturate(600%) hue-rotate(340deg) brightness(95%) contrast(90%);
+}
+
+/* TEXTO TOPO */
+#Personalizacao .card-topo span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6B4532;
+}
+
+/* CONTEÚDO */
+#Personalizacao .card-conteudo {
+  background: #ffffff; /* 🔥 fundo igual figma */
+  padding: 18px;
+}
+
+/* LINHA */
+#Personalizacao .linha-config {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* TEXTO TEMA */
+#Personalizacao .linha-config p {
+  font-size: 13px;
+  font-weight: 600;
+  color: #6B4532;
+}
+
+/* SELECT */
+#Personalizacao .select-tema {
+  width: 110px;
+  height: 28px;
+
+  border-radius: 6px;
+  border: 1px solid #d0d0d0;
+
+  background: #eaeaea;
+  color: #6B4532;
+
+  font-size: 13px;
+  padding: 0 8px;
+
+  cursor: pointer;
+}
+
+/* HOVER */
+#Personalizacao .select-tema:hover {
+  border-color: #6B4532;
+}
+
+/* FOCUS */
+#Personalizacao .select-tema:focus {
+  background: #fff;
+  border-color: #6B4532;
+}
