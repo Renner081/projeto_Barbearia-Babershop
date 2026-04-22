@@ -153,8 +153,10 @@ header nav {
 .user-info p {
   font-weight: 500;
   font-size: 15px;
-  margin-top: 5px;   /* sobe ou desce */
-  margin-left: 0px;   /* direita ou esquerda */
+  margin-top: 5px;
+  /* sobe ou desce */
+  margin-left: 0px;
+  /* direita ou esquerda */
 }
 
 .avatar-principal {
@@ -345,11 +347,11 @@ header nav {
   transition: .3s;
 }
 
-.switch input:checked + .slider {
+.switch input:checked+.slider {
   background: #48b757;
 }
 
-.switch input:checked + .slider::before {
+.switch input:checked+.slider::before {
   transform: translateX(14px);
 }
 
@@ -360,7 +362,8 @@ header nav {
   border-radius: 6px;
   overflow: hidden;
   width: 100%;
-  max-width: 1100px; /* 🔥 mais próximo do Figma */
+  max-width: 1100px;
+  /* 🔥 mais próximo do Figma */
 }
 
 /* TOPO PERSONALIZADO */
@@ -468,8 +471,7 @@ header nav {
   height: 20px;
 
   /* marrom do sistema */
-  filter: brightness(0) saturate(100%) invert(23%) sepia(24%) 
-          saturate(600%) hue-rotate(340deg) brightness(95%) contrast(90%);
+  filter: brightness(0) saturate(100%) invert(23%) sepia(24%) saturate(600%) hue-rotate(340deg) brightness(95%) contrast(90%);
 }
 
 /* TEXTO TOPO */
@@ -481,7 +483,8 @@ header nav {
 
 /* CONTEÚDO */
 #Personalizacao .card-conteudo {
-  background: #ffffff; /* 🔥 fundo igual figma */
+  background: #ffffff;
+  /* 🔥 fundo igual figma */
   padding: 18px;
 }
 

@@ -131,13 +131,13 @@ nav a:active {
 }
 
 .Agend_container {
-  max-width: 380px; 
+  max-width: 380px;
   width: 100%;
   margin: 50px auto;
   background-color: #FEFEFE;
   border-radius: 12px;
-  padding: 22px; 
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  padding: 22px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 /* título */
@@ -168,7 +168,7 @@ nav a:active {
   width: 90%;
   padding: 10px;
   border-radius: 8px;
-  border: 1.5px solid  #d8cfc6;
+  border: 1.5px solid #d8cfc6;
   background: #faf8f6;
   color: #020202;
   outline: none;
@@ -199,7 +199,7 @@ nav a:active {
   outline: none;
   box-shadow: none;
 
-   transition: 
+  transition:
     transform 0.2s ease,
     background-color 0.3s ease,
     box-shadow 0.3s ease;
@@ -212,7 +212,7 @@ nav a:active {
 }
 
 .Agend_form button:active {
-   transform: scale(0.95);
-    background-color: #7B4F46;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: scale(0.95);
+  background-color: #7B4F46;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

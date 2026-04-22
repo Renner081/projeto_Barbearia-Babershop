@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
@@ -8,22 +9,23 @@
 </head>
 
 <script src="scripts/Script_Usuario.js" defer></script>
+
 <body>
-    
+
     <header>
         <!--Topo do Site-->
-<div class="Logo">
-    <img src="img/3m-barber-logo.png" alt="logo" class="img-logo"> 3M BARBER
-</div>
+        <div class="Logo">
+            <img src="img/3m-barber-logo.png" alt="logo" class="img-logo"> 3M BARBER
+        </div>
 
         <nav>
             <a href="inicio.html">Início</a>
             <a href="Agendamento.html">Agendamentos</a>
             <a href="Cortes.html">Cortes</a>
-            
+
         </nav>
-        
-            <div class="Login">
+
+        <div class="Login">
             <a href="Login_Registro.html" class="Login_text">Login/Cadastro</a>
 
             <a href="#" class="icon_LG">
@@ -31,258 +33,259 @@
             </a>
         </div>
 
- </header>
+    </header>
 
- <!---Aqui começa a sidebar, atenção total. main vai mexer em tudo então cuidado no CSS!-->
+    <!---Aqui começa a sidebar, atenção total. main vai mexer em tudo então cuidado no CSS!-->
 
- <main class="Dashboard-container">
+    <main class="Dashboard-container">
 
-    <aside class="sidebar">
-        <div class="user-info">
-            <img src="icons/profile.png" alt="avatar" class="avatar-principal">
-            <h3>USUARIO</h3>
-            <P>CLIENTE</P>
-        </div>
-
-       <nav class="menu-lateral">
-    <button class="menu-item active" data-target="Perfil">
-        <img src="icons/user.png" alt=""> Perfil
-    </button>
-    <button class="menu-item" data-target="Gerenciamento">
-        <img src="icons/dashboard.png" alt=""> Gerenciamento
-    </button>
-    <button class="menu-item" data-target="Notificacoes">
-        <img src="icons/notifications.png" alt=""> Notificações
-    </button>
-    <button class="menu-item" data-target="Personalizacao">
-        <img src="icons/edit.png" alt=""> Personalização
-    </button>
-     </nav>
-    </aside>
-
-    <!-- aqui é a sessão onde vocês irão mexer, tudo que vão colocar coloquem dentro das divs, removam o paragrafo, é um exemplo.-->
-
-<section class="Content-Area">
-
-    <!-- PERFIL -->
-    <div id="Perfil" class="content-section active">
-
-        <div class="perfil-grid">
-
-            <!-- CARD 1 -->
-            <div class="card-perfil">
-                <div class="card-topo">
-                    <img src="icons/profile-details.png" alt="">
-                    <span>Detalhes do Perfil</span>
-                </div>
-
-                <div class="card-conteudo">
-                    <p>Nome de Usuário <strong>USUARIO</strong></p>
-                    <p>Email <strong>Email@gmail.com</strong></p>
-                    <p>Número <strong>(81) 9xxxx-xxxx</strong></p>
-                </div>
+        <aside class="sidebar">
+            <div class="user-info">
+                <img src="icons/profile.png" alt="avatar" class="avatar-principal">
+                <h3>USUARIO</h3>
+                <P>CLIENTE</P>
             </div>
 
-            <!-- CARD 2 -->
-            <div class="card-perfil">
-                <div class="card-topo">
-                    <img src="icons/active-schedules.png" alt="">
-                    <span>Agendamentos</span>
-                </div>
+            <nav class="menu-lateral">
+                <button class="menu-item active" data-target="Perfil">
+                    <img src="icons/user.png" alt=""> Perfil
+                </button>
+                <button class="menu-item" data-target="Gerenciamento">
+                    <img src="icons/dashboard.png" alt=""> Gerenciamento
+                </button>
+                <button class="menu-item" data-target="Notificacoes">
+                    <img src="icons/notifications.png" alt=""> Notificações
+                </button>
+                <button class="menu-item" data-target="Personalizacao">
+                    <img src="icons/edit.png" alt=""> Personalização
+                </button>
+            </nav>
+        </aside>
 
-                <div class="card-conteudo">
-                    <p>Próximo Corte <strong>XX/XX às xxh</strong></p>
-                    <p>Barbeiro <strong>BARBEIRO</strong></p>
+        <!-- aqui é a sessão onde vocês irão mexer, tudo que vão colocar coloquem dentro das divs, removam o paragrafo, é um exemplo.-->
 
-                    <button class="btn-card">Detalhes</button>
-                </div>
-            </div>
+        <section class="Content-Area">
 
-            <!-- CARD 3 -->
-            <div class="card-perfil">
-                <div class="card-topo">
-                    <img src="icons/statistics.png" alt="">
-                    <span>Estatísticas</span>
-                </div>
+            <!-- PERFIL -->
+            <div id="Perfil" class="content-section active">
 
-                <div class="card-conteudo">
-                    <p>Cortes Realizados <strong>0</strong></p>
-                    <p>Última Visita <strong>xx/xx/xxxx</strong></p>
-                </div>
-            </div>
+                <div class="perfil-grid">
 
-            <!-- CARD 4 -->
-            <div class="card-perfil">
-                <div class="card-topo">
-                    <img src="icons/history.png" alt="">
-                    <span>Histórico</span>
-                </div>
+                    <!-- CARD 1 -->
+                    <div class="card-perfil">
+                        <div class="card-topo">
+                            <img src="icons/profile-details.png" alt="">
+                            <span>Detalhes do Perfil</span>
+                        </div>
 
-                <div class="card-conteudo">
-                    <p>xx/xx <strong>Corte Masculino</strong></p>
-                    <p>xx/xx <strong>Corte + Barba</strong></p>
-                    <p>xx/xx <strong>Corte + Barba</strong></p>
-                </div>
-            </div>
+                        <div class="card-conteudo">
+                            <p>Nome de Usuário <strong>USUARIO</strong></p>
+                            <p>Email <strong>Email@gmail.com</strong></p>
+                            <p>Número <strong>(81) 9xxxx-xxxx</strong></p>
+                        </div>
+                    </div>
 
-        </div>
+                    <!-- CARD 2 -->
+                    <div class="card-perfil">
+                        <div class="card-topo">
+                            <img src="icons/active-schedules.png" alt="">
+                            <span>Agendamentos</span>
+                        </div>
 
-    </div>
+                        <div class="card-conteudo">
+                            <p>Próximo Corte <strong>XX/XX às xxh</strong></p>
+                            <p>Barbeiro <strong>BARBEIRO</strong></p>
 
-    <!-- OUTRAS ABAS -->
-    <div id="Gerenciamento" class="content-section">
-    <div class="gerenciamento-grid">
+                            <button class="btn-card">Detalhes</button>
+                        </div>
+                    </div>
 
-        <!-- CARD NOTIFICAÇÕES -->
-        <div class="card-gerenciamento">
-            <div class="card-topo">
-                <img src="icons/notifications-box.png" alt="">
-                <span>Notificações</span>
-            </div>
+                    <!-- CARD 3 -->
+                    <div class="card-perfil">
+                        <div class="card-topo">
+                            <img src="icons/statistics.png" alt="">
+                            <span>Estatísticas</span>
+                        </div>
 
-            <div class="card-conteudo">
+                        <div class="card-conteudo">
+                            <p>Cortes Realizados <strong>0</strong></p>
+                            <p>Última Visita <strong>xx/xx/xxxx</strong></p>
+                        </div>
+                    </div>
 
-                <div class="linha-config">
-                    <p>LEMBRETES</p>
-                    <label class="switch">
-                        <input type="checkbox" checked>
-                        <span class="slider"></span>
-                    </label>
-                </div>
+                    <!-- CARD 4 -->
+                    <div class="card-perfil">
+                        <div class="card-topo">
+                            <img src="icons/history.png" alt="">
+                            <span>Histórico</span>
+                        </div>
 
-                <div class="linha-config">
-                    <p>CONFIRMAÇÃO</p>
-                    <label class="switch">
-                        <input type="checkbox" checked>
-                        <span class="slider"></span>
-                    </label>
-                </div>
+                        <div class="card-conteudo">
+                            <p>xx/xx <strong>Corte Masculino</strong></p>
+                            <p>xx/xx <strong>Corte + Barba</strong></p>
+                            <p>xx/xx <strong>Corte + Barba</strong></p>
+                        </div>
+                    </div>
 
-                <div class="linha-config">
-                    <p>PROMOÇÕES</p>
-                    <label class="switch">
-                        <input type="checkbox" checked>
-                        <span class="slider"></span>
-                    </label>
                 </div>
 
             </div>
-        </div>
 
-        <!-- CARD SEGURANÇA -->
-        <div class="card-gerenciamento">
-            <div class="card-topo">
-                <img src="icons/lock.png" alt="">
-                <span>Segurança</span>
+            <!-- OUTRAS ABAS -->
+            <div id="Gerenciamento" class="content-section">
+                <div class="gerenciamento-grid">
+
+                    <!-- CARD NOTIFICAÇÕES -->
+                    <div class="card-gerenciamento">
+                        <div class="card-topo">
+                            <img src="icons/notifications-box.png" alt="">
+                            <span>Notificações</span>
+                        </div>
+
+                        <div class="card-conteudo">
+
+                            <div class="linha-config">
+                                <p>LEMBRETES</p>
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+
+                            <div class="linha-config">
+                                <p>CONFIRMAÇÃO</p>
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+
+                            <div class="linha-config">
+                                <p>PROMOÇÕES</p>
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- CARD SEGURANÇA -->
+                    <div class="card-gerenciamento">
+                        <div class="card-topo">
+                            <img src="icons/lock.png" alt="">
+                            <span>Segurança</span>
+                        </div>
+
+                        <div class="card-conteudo">
+
+                            <div class="linha-config">
+                                <p>Senha</p>
+                                <button class="btn-card">Alterar</button>
+                            </div>
+
+                            <div class="linha-config">
+                                <p>Email</p>
+                                <button class="btn-card">Alterar</button>
+                            </div>
+
+                            <div class="linha-config">
+                                <p>Sessão Ativa</p>
+                                <strong>Computador/PC</strong>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="card-conteudo">
+            <div id="Notificacoes" class="content-section">
 
-                <div class="linha-config">
-                    <p>Senha</p>
-                    <button class="btn-card">Alterar</button>
+                <div class="card-notificacoes">
+
+                    <!-- TOPO -->
+                    <div class="card-topo notificacoes-topo">
+                        <div class="left">
+                            <img src="icons/notifications-icon.png" alt="">
+                            <span>Notificações</span>
+                        </div>
+
+                        <div class="right">
+                            <span>Não Perturbe</span>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- LISTA -->
+                    <div class="lista-notificacoes">
+
+                        <div class="item-notificacao">
+                            <span class="dot"></span>
+                            <p>Seu agendamento foi confirmado</p>
+                        </div>
+
+                        <div class="item-notificacao">
+                            <span class="dot"></span>
+                            <p>Promoção disponível esta semana</p>
+                        </div>
+
+                        <div class="item-notificacao">
+                            <span class="dot"></span>
+                            <p>Lembrete: corte amanhã às 15h</p>
+                        </div>
+
+                        <div class="item-notificacao">
+                            <span class="dot"></span>
+                            <p>Novo barbeiro disponível</p>
+                        </div>
+
+                        <div class="item-notificacao">
+                            <span class="dot"></span>
+                            <p>Seu histórico foi atualizado</p>
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div class="linha-config">
-                    <p>Email</p>
-                    <button class="btn-card">Alterar</button>
+            </div>
+
+            <div id="Personalizacao" class="content-section">
+
+                <div class="card-personalizacao personalizacao-box">
+
+                    <!-- TOPO -->
+                    <div class="card-topo personalizacao-topo">
+                        <img src="icons/preferences.png" alt="">
+                        <span>Preferências</span>
+                    </div>
+
+                    <!-- CONTEÚDO -->
+                    <div class="card-conteudo personalizacao-conteudo">
+
+                        <div class="linha-config">
+                            <p>TEMA</p>
+
+                            <select class="select-tema">
+                                <option>Claro</option>
+                                <option>Escuro</option>
+                            </select>
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div class="linha-config">
-                    <p>Sessão Ativa</p>
-                    <strong>Computador/PC</strong>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-    </div>
-
-<div id="Notificacoes" class="content-section">
-
-    <div class="card-notificacoes">
-
-        <!-- TOPO -->
-        <div class="card-topo notificacoes-topo">
-            <div class="left">
-                <img src="icons/notifications-icon.png" alt="">
-                <span>Notificações</span>
             </div>
 
-            <div class="right">
-                <span>Não Perturbe</span>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider"></span>
-                </label>
-            </div>
-        </div>
-
-        <!-- LISTA -->
-        <div class="lista-notificacoes">
-
-            <div class="item-notificacao">
-                <span class="dot"></span>
-                <p>Seu agendamento foi confirmado</p>
-            </div>
-
-            <div class="item-notificacao">
-                <span class="dot"></span>
-                <p>Promoção disponível esta semana</p>
-            </div>
-
-            <div class="item-notificacao">
-                <span class="dot"></span>
-                <p>Lembrete: corte amanhã às 15h</p>
-            </div>
-
-            <div class="item-notificacao">
-                <span class="dot"></span>
-                <p>Novo barbeiro disponível</p>
-            </div>
-
-            <div class="item-notificacao">
-                <span class="dot"></span>
-                <p>Seu histórico foi atualizado</p>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-  <div id="Personalizacao" class="content-section">
-
-       <div class="card-personalizacao personalizacao-box">
-
-        <!-- TOPO -->
-        <div class="card-topo personalizacao-topo">
-            <img src="icons/preferences.png" alt="">
-            <span>Preferências</span>
-        </div>
-
-        <!-- CONTEÚDO -->
-        <div class="card-conteudo personalizacao-conteudo">
-
-            <div class="linha-config">
-                <p>TEMA</p>
-
-                <select class="select-tema">
-                    <option>Claro</option>
-                    <option>Escuro</option>
-                </select>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-</section>
- </main>
+        </section>
+    </main>
 
 </body>
+
 </html>

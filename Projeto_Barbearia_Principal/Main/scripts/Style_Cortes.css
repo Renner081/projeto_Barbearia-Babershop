@@ -48,15 +48,15 @@ header {
 
 }
 
-.img-logo{
-    height: 50px;
-    width: auto;
+.img-logo {
+  height: 50px;
+  width: auto;
 }
 
 .usuario {
-   display: flex;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 /* LOGIN */
@@ -141,136 +141,137 @@ nav a:active {
   align-items: center;
 }
 
-.conteudo-principal{
-    margin-left: 120px;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
+.conteudo-principal {
+  margin-left: 120px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 50px;
-    margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin: 0;
 }
 
 p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin: 0;
 
 }
 
 
 .btn-agendar {
-    background-color: #5A3A2E;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 12px 50px;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    display: inline-block;
+  background-color: #5A3A2E;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 50px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
 
-     transition: 
+  transition:
     transform 0.2s ease,
     background-color 0.3s ease,
     box-shadow 0.3s ease;
 
 }
+
 .btn-agendar:hover {
-    transform: translateY(-3px);
-    background-color: #7B4F46;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+  background-color: #7B4F46;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn-agendar:active {
-    transform: scale(0.95);
-    background-color: #7B4F46;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: scale(0.95);
+  background-color: #7B4F46;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .Container-principal {
-    display: flex;
+  display: flex;
 }
 
-.classic-cut{
-    width: 100%;
-    max-width: 300px;
-    border-radius: 15px;
-    width: 100%;
+.classic-cut {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+  width: 100%;
 }
 
-.fade-cut{
-    width: 100%;
-    max-width: 300px;
-    border-radius: 15px;
+.fade-cut {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
 }
 
 .card-principal {
-    display: flex;
-    gap: 20px;
-    padding-top: 80px;
-    padding-left: 80px;
+  display: flex;
+  gap: 20px;
+  padding-top: 80px;
+  padding-left: 80px;
 
 
 }
 
 .card-corte {
-    background-color: white;
-    border-radius: 15px;
+  background-color: white;
+  border-radius: 15px;
 }
+
 .Card-corte {
-    background-color: white;
-    border-radius: 15px;
+  background-color: white;
+  border-radius: 15px;
 }
 
 h3 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
 
 }
 
 .info1 {
-    font-family: "Montserrat", sans-serif;
-    margin-top: -20px;
-    margin-bottom: 30px;
-    font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .info2 {
-    font-family: "Montserrat", sans-serif;
-    margin-top: -20px;
-    margin-bottom: 30px;
-    font-size: 18px;
- 
+  font-family: "Montserrat", sans-serif;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+
 }
 
 .card-corte button {
-    background-color: transparent;
-    border: 3px solid #f7ecec;
-    color: #5D4037;
-    padding: 10px 20px;
-    display: block;
-    margin-bottom: 20px;
-    margin-left: 18px;
-    border-radius: 7px;
-    cursor: pointer;
+  background-color: transparent;
+  border: 3px solid #f7ecec;
+  color: #5D4037;
+  padding: 10px 20px;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 18px;
+  border-radius: 7px;
+  cursor: pointer;
 }
 
 .Card-corte button {
-    background-color: transparent;
-    border: 3px solid #f7ecec;
-    color: #5D4037;
-    padding: 10px 20px;
-    display: block;
-    margin-bottom: 20px;
-    margin-left: 18px;
-    border-radius: 7px;
-    cursor: pointer;
+  background-color: transparent;
+  border: 3px solid #f7ecec;
+  color: #5D4037;
+  padding: 10px 20px;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 18px;
+  border-radius: 7px;
+  cursor: pointer;
 }
-
