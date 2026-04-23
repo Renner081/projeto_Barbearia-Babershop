@@ -12,13 +12,17 @@
     <title>interface da Barbearia</title>
 </head>
 
+<script src="scripts/Script_Agendamento.js"></script>
+<script src="scripts/Script_Autenticação.js"></script>
+
 <body>
+
     <header>
         <!--Topo do Site-->
         <div class="Logo"><img src="img/3m-barber-logo.png" alt="3M Barber"> 3M BARBER </div>
         <!--Partes em # adiciona Link para outra página do Site-->
         <nav>
-            <a href="inicio.html">Início</a>
+            <a href="Inicio.html">Início</a>
             <a href="Agendamento.html">Agendamentos</a>
             <a href="Cortes.html">Cortes</a>
 
@@ -51,7 +55,9 @@
             <label for="time">Hora do Agendamento:</label>
             <input type="time" id="time" name="time" required>
 
-            <a href="Agendamento.html"><button type="submit">CONFIRMAR AGENDAMENTO</button></a>
+            <button type="button" onclick="agendar()">
+                CONFIRMAR AGENDAMENTO
+            </button>
 
         </form>
     </div>

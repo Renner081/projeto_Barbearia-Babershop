@@ -529,3 +529,29 @@ header nav {
   background: #fff;
   border-color: #6B4532;
 }
+
+.card-logout {
+    display: none; /* Inicialmente oculto */
+    position: absolute; /* Posiciona o card abaixo do ícone */
+    top: 70px; /* Ajuste a posição para ficar abaixo do ícone */
+    left: 1200px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-logout .btn-logout {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4d4d; /* Cor de fundo vermelha */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card-logout .btn-logout:hover {
+    background-color: #e60000; /* Cor mais escura ao passar o mouse */
+}

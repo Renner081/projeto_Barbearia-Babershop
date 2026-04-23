@@ -442,3 +442,30 @@ main {
   color: #7a7068;
   line-height: 1.6;
 }
+
+.success-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #4CAF50;
+  margin: 0 auto 20px;
+  position: relative;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+}
+
+.success-icon::after {
+  content: "";
+  position: absolute;
+  left: 22px;
+  top: 13px;
+  width: 12px;
+  height: 25px;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
+
+.success-icon.show {
+  transform: scale(1);
+}

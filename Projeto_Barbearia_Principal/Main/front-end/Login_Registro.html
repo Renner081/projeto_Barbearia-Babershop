@@ -8,9 +8,10 @@
     <title>Document</title>
 </head>
 
-<body>
+<script src="scripts/Script_LoginRegistro.js"></script>
+<script src="scripts/Script_Autenticação.js"></script>
 
-    <script src="scripts/Script_LoginRegistro.js"></script>
+<body>
 
     <header>
 
@@ -21,7 +22,7 @@
         </div>
 
         <nav>
-            <a href="inicio.html">Início</a>
+            <a href="Inicio.html">Início</a>
             <a href="Agendamento.html">Agendamentos</a>
             <a href="Cortes.html">Cortes</a>
         </nav>
@@ -69,7 +70,7 @@
 
                         <div class="input-wrapper">
                             <img src="icons/email.png" class="icon">
-                            <input type="email" placeholder="E-mail">
+                            <input type="email" id="login-email" placeholder="E-mail">
                         </div>
                     </div>
 
@@ -108,7 +109,7 @@
 
                         <div class="input-wrapper">
                             <img src="icons/username.png" class="icon">
-                            <input type="text" placeholder="Insira seu nome">
+                            <input type="text" id="register-nome" placeholder="Insira seu nome">
                         </div>
                     </div>
 
@@ -118,7 +119,7 @@
 
                         <div class="input-wrapper">
                             <img src="icons/email.png" class="icon">
-                            <input type="text" placeholder="Insira seu E-mail">
+                            <input type="text" id="register-email" placeholder="Insira seu E-mail">
                         </div>
                     </div>
 
@@ -168,7 +169,7 @@
                 </div>
             </div>
 
-            <p class="popup-title">Bem-Vindo! ✂️</p>
+            <p class="popup-title">Bem-Vindo!</p>
             <p class="popup-sub">
                 Entrando na sua conta, Aguarde...
             </p>
@@ -183,13 +184,13 @@
 
         <div class="popup">
 
-            <div class="spinner"></div>
+            <!-- Ícone -->
+            <div class="success-icon" id="successIcon"></div>
 
-            <p class="popup-title">Criando Conta</p>
+            <p class="popup-title" id="registerTitle">Criando Conta</p>
 
-            <p class="popup-sub">
-                Estamos criando sua conta, se tudo der certo,
-                você será redirecionado, Aguarde...
+            <p class="popup-sub" id="registerText">
+                Estamos criando sua conta, aguarde...
             </p>
 
         </div>

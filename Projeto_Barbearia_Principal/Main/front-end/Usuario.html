@@ -9,6 +9,7 @@
 </head>
 
 <script src="scripts/Script_Usuario.js" defer></script>
+<script src="scripts/Script_Autenticação.js"></script>
 
 <body>
 
@@ -31,6 +32,11 @@
             <a href="#" class="icon_LG">
                 <img src="icons/user.png" alt="User_icon">
             </a>
+
+            <div class="card-logout" id="card-logout" style="display: none;">
+                <button class="btn-logout" onclick="logout()">Deslogar</button>
+            </div>
+
         </div>
 
     </header>
@@ -92,10 +98,9 @@
                             <span>Agendamentos</span>
                         </div>
 
-                        <div class="card-conteudo">
-                            <p>Próximo Corte <strong>XX/XX às xxh</strong></p>
-                            <p>Barbeiro <strong>BARBEIRO</strong></p>
-
+                        <div class="card-conteudo"> <!-- Mudei de 'card-conteudo-agendamentos' para 'card-conteudo' -->
+                            <p>Próximo Corte <strong id="proximoCorte">--</strong></p>
+                            <p>Barbeiro <strong id="barbeiroNome">--</strong></p>
                             <button class="btn-card">Detalhes</button>
                         </div>
                     </div>
@@ -108,8 +113,8 @@
                         </div>
 
                         <div class="card-conteudo">
-                            <p>Cortes Realizados <strong>0</strong></p>
-                            <p>Última Visita <strong>xx/xx/xxxx</strong></p>
+                            <p>Cortes Realizados <strong id="totalCortes">0</strong></p>
+                            <p>Última Visita <strong id="ultimaVisita">--</strong></p>
                         </div>
                     </div>
 
@@ -120,10 +125,7 @@
                             <span>Histórico</span>
                         </div>
 
-                        <div class="card-conteudo">
-                            <p>xx/xx <strong>Corte Masculino</strong></p>
-                            <p>xx/xx <strong>Corte + Barba</strong></p>
-                            <p>xx/xx <strong>Corte + Barba</strong></p>
+                        <div class="card-conteudo" id="historicoLista">
                         </div>
                     </div>
 
