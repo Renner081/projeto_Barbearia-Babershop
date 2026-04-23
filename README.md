@@ -36,4 +36,4 @@ Facilitar o dia a dia de uma barbearia, reduzindo processos manuais e melhorando
 
 ## Status do projeto
 
-Em desenvolvimento! ⏱️
+Completo!
